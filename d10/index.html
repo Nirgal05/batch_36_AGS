@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <title>Dia 10</title>
+</head>
+
+<body>
+    <main>
+        <div class="container">
+            <h1 id="titulo">Título de mi sitio</h1>
+            <div>
+                <button onclick="changeColor('#007bff')" type="button" class="btn btn-primary">Primary</button>
+                <button onclick="changeColor('#6c757d')" type="button" class="btn btn-secondary">Secondary</button>
+                <button onclick="changeColor('#28a745')" type="button" class="btn btn-success">Success</button>
+                <button onclick="changeColor('#dc3545')" type="button" class="btn btn-danger">Danger</button>
+                <button onclick="changeColor('#ffc107')" type="button" class="btn btn-warning">Warning</button>
+                <button onclick="changeColor('#17a2b8')" type="button" class="btn btn-info">Info</button>
+                <button onclick="changeColor('#f8f9fa')" type="button" class="btn btn-light">Light</button>
+                <button onclick="changeColor('#343a40')" type="button" class="btn btn-dark">Dark</button>
+
+                <button onclick="changeColor('#007bff')" type="button" class="btn btn-link">Link</button>
+            </div>
+            <div>
+                <button onclick="addClass('font-weight-normal')" type="button" class="btn btn-dark">Normal</button>
+                <button onclick="addClass('font-italic')" type="button" class="btn btn-dark">Italic</button>
+                <button onclick="addClass('font-bold')" type="button" class="btn btn-dark">Negritas</button>
+            </div>
+            <br> <!--Da un salto!!!!-->
+            <div class="input-group mb-3">
+                <input id="cajaDeTexto" type="text" class="form-control" aria-label="Username"
+                    aria-describedby="basic-addon1">
+                    <button onclick="changeText()" type="button" class="btn btn-dark">Cambiar</button>
+            </div>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

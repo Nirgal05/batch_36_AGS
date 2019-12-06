@@ -1,0 +1,117 @@
+<!--Sitáxis correcta de html-->
+<!-- al abrir un nuevo archivo, puedes poner "!" y arma el esqueleto para html -->
+<!DOCTYPE html> <!--le indico al navegador que e sun archivo de html-->
+
+<html lang="es"> <!--Sitio en español-->
+    
+    <!--Encabezado, aquí va toda la metadata para posicionar un sitio-->
+    <head> 
+        <meta charset="UFT-8"> <!--Soporta caracteres especiales-->
+
+        <!--Metadata: información que se da antes para cargar un sitio, lo necesario para cargar-->
+        <!-- Esto es el: SEO-->
+        <title>Documento_1</title> <!--Título del sitio-->
+    </head> 
+    <body>
+        <!-- Contenido principal -->
+        <!-- HTML 5-->
+        <main> <!--El buscador lo puede identificar así-->
+            <h1>2インタネット WEB</h1>
+            <a href="https://google.com">Google へ行きます</a> <!--Pegar hiperbínculo y ponerle mensaje-->
+            <a href="about.html">Acerca de nosotros</a> <!--2° hiperbínculo-->
+        </main>
+        <!--Inicia sección 1-->
+        <section><!--Que algo por default para ejemplo (lo de Lorem abajo)-->
+            <h2>Sección 1</h2>
+            <!-- src = Source -->
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur commodi reiciendis soluta animi quia eaque illum atque in sed, inventore facere dolorum itaque, dolore error et sequi sapiente corrupti ea.</p>
+            <img src="Tesla-logo-history.jpg" alt="Logo de Tesla Motors"> <!--alt dice que es la imagen-->
+            <span>Esta imagen muestra el logo de una de las empresas más hermosas del mundo</span>
+        </section>
+        <!--Inicia sección 2-->
+        <section>
+            <h2>Sección 2</h2>
+            <button>Pushale</button>
+            <ul> <!-- ul>li*5 así te pone n elementos de lista-->
+                <li>あかい</li>
+                <li>みどり</li>
+                <li>あおい</li>
+                <li>くろい</li>
+                <li>オレンジ</li>
+            </ul> <!--Estos ponen "bullets" -->
+            <ol> <!-- Esto numera las listas -->
+                <li>あかい</li>
+                <li>みどり</li>
+                <li>あおい</li>
+                <li>くろい</li>
+                <li>オレンジ</li>
+            </ol>
+            <!-- section>h1*4, otro -->
+            <ol type="A"> <!--"enlista" de diferentes maneras-->
+                <li>あかい</li>
+                <li>みどり</li>
+                <li>あおい</li>
+                <li>くろい</li>
+                <li>オレンジ</li>
+            </ol>
+            <ol type="A" start="4"> <!--"enlista" desde un punto en específico-->
+                <li>あかい</li>
+                <li>みどり</li>
+                <li>あおい</li>
+                <li>くろい</li>
+                <li>オレンジ</li>
+            </ol>
+        </section>
+        <!--Inicia sección 3-->
+        <section>
+            <h2>Sección 3</h2>
+            <table>
+                <thead>Encabezado de tablas</thead> <!--Tabla, table>thead -->
+                <tbody>
+                    <tr>
+                        <td>Encabezado 1</td> <!--Cada columna, el tr cada renglon-->
+                        <td>Encabezado 2</td>
+                        <td>Encabezado 3</td>
+                    </tr>
+                    <tr>
+                        <td>Contenido 1</td>
+                        <td>Contenido 2</td>
+                        <td>Contenido 3</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <section>
+            <h2>Sección 4</h2>
+            <!--HTTP metodos POST/GET-->
+            <form action="https://formspree.io/xqkakaoo" method="POST"> <!--Aqui es donde pogo lo del form1!-->
+                <label for="nombre">名前ください:</label> <!--etiqueta enlazada a lo de abajo-->
+                <input type="text" name="nombre"> <!--La caja se llama "name" y se enlaza a "nombre"-->
+                
+                <label for="telefono">電話ばんごう:</label>
+                <input type="tel" name="telefono">
+
+                <label for="edad">何さいですか:</label>
+                <input type="number" name="edad">
+
+                <label for="fecha">日月年:</label>
+                <input type="date" name="fecha">
+
+                <label for="contra">Password:</label>
+                <input type="password" name="contra">
+
+                <!--Combo box-->
+                <label for="color">Selecciona color</label>
+                <select name="color">
+                    <option value="rojo">あかい</option>
+                    <option value="verde">みどり</option>
+                    <option value="azul">あおい</option>
+                </select>
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+        <!--Footer de la página-->
+        <footer></footer>
+    </body>
+
+</html>

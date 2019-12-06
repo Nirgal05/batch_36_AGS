@@ -1,0 +1,47 @@
+/* Selector por etiquetas */
+* { /*Propiedades generales*/
+    font-family: Arial;
+}
+
+/* Selector por id */
+#up{
+    background: rgb(66, 66, 66);
+    height: 90px;
+    border: 2px solid black;
+}
+#middle{
+    background: white;
+    height: 460px;
+    border: 2px solid black;
+}
+#spaceX{
+    margin-top: 5px;
+    padding-left: 350px;
+}
+#buscador{
+    margin-left: 590px;
+}
+#B1{
+    height: 30px;
+    width: 80px;
+    margin-left: 500px;
+}
+#B2{
+    height: 30px;
+    width: 100px;
+    margin-left: 250px;
+}
+#below{
+    background: goldenrod;
+    height: 90px;
+    border: 2px solid black;
+}
+/* Selector por clase (lo de abajo son clases) */
+
+/*.box{ 
+    background: gray;
+    height: 300px;
+    width: 300px;
+    border: 2px solid black;
+    margin-left: 300px;
+}*/

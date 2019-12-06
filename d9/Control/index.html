@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <title>Document</title>
+</head>
+
+<body class="bg-primary">
+    <nav class="bg-primary">
+        <main class="d-flex justify-content-center">
+            <section class="d-flex justify-content-center">
+                <div class="card" style="width: 18rem;">
+                    <img src="LCD.jpg" class="card-img-top rounded rounded-sm" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Control</h5>
+                        <ul>
+                            <li>Color: <b id="color">Cargando...</b> </li>
+                            <li>Material: <b id="material">Cargando...</b></li>
+                            <li>Display: <b id="display">Cargando...</b></li>
+                            <li>Altura: <b id="altura">Cargando...</b></li>
+                            <li>Ancho: <b id="ancho">Cargando...</b></li>
+                        </ul>
+                        <button type="button" class="btn btn-success" onclick="control.botones.encender()">ON</button>
+                        <button type="button" class="btn btn-danger" onclick="control.botones.apagar()">OFF</button>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </nav>
+    <script src="script.js"></script>
+</body>
+
+</html>

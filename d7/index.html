@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- Con la línea de abajo pusimos Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <title>Día 7: Boostrap</title> <!-- Framework desarrollado por Twitter, es fregón -->
+</head>
+
+<body>
+    <nav class="bg-dark">
+        <!--Estoy usando una clase importada de Bootstrap-->
+        <ul class="nav justify-content-end">
+            <!--Copiado de Bootstrap, ul "es lista desordenada"-->
+            <li class="nav-item">
+                <a class="nav-link" href="#">Home</a> <!-- Manda a otro link... -->
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">About us</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+            </li>
+        </ul>
+    </nav>
+    <main>
+        <div class="container">
+            <h1 class="text-center font-weight-bold">Hola Bootstrap...</h1>
+            <!--clases juntas-->
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis magnam quam in sunt repudiandae,
+                saepe blanditiis minus, soluta maxime atque ipsa cum, voluptatem neque deserunt? Provident quae atque
+                nobis voluptatibus.</p>
+        </div>
+    </main>
+
+    <body>
+        <section>
+            <div class="container">
+                <div class="row">
+                    <!--Esta clase alinea la fila-->
+                    <!-- 1 -->
+                    <!--De esta manera lo hicimos responsivo a varios dispositivos-->
+                    <div class="col-12 col-sm-6 col-md-3">
+                        <!--Lo tenía en 3, pero en 12 es para todo full mobiles-->
+                        <!--El grid es de 12, si lo pongo a 3 columnas, me caben 4 secciones/cards-->
+                        <div class="card">
+                            <img src="JM.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Plaza principal de Wakanda</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk
+                                    of the
+                                    card's content.</p>
+                                <a href="https://www.google.com.mx/search?hl=es-419&source=hp&ei=FIPgXdv5H86YtgXzn5DICw&q=Jes%C3%BAs+Mar%C3%ADa&oq=Jes%C3%BAs+Mar%C3%ADa&gs_l=psy-ab.3..0l10.45115.46434..46773...0.0..0.125.1222.8j6......0....1..gws-wiz.....0..0i131.Ou3TEWQUc7g&ved=0ahUKEwjb0__AsI7mAhVOjK0KHfMPBLkQ4dUDCAY&uact=5"
+                                    class="btn btn-primary">Go somewhere</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 2 -->
+                    <div class="col-12 col-sm-6 col-md-3">
+                        <!--Lo tenía en 3, pero en 12 es para todo full mobiles-->
+                        <!--El grid es de 12, si lo pongo a 3 columnas, me caben 4 imagenes-->
+                        <div class="card">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9fFVVi0_YNfHJrhmA263st3SXGwOlwveQzAhEpYz0gu2yo7KD&s"
+                                class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Don't Panic!!!</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk
+                                    of the
+                                    card's content.</p>
+                                <a href="https://www.google.com.mx/search?hl=es-419&ei=ZoPgXeztD8zatQWr8IHwAg&q=Starman+Spacex&oq=Starman+Spacex&gs_l=psy-ab.3..0l2j0i22i30l8.4480.8402..8558...3.2..0.274.1086.0j7j1......0....1..gws-wiz.......0i71j0i67j0i131i67j0i13j0i13i30.UWtL0uW3Et8&ved=0ahUKEwjsuPznsI7mAhVMba0KHSt4AC4Q4dUDCAs&uact=5"
+                                    class="btn btn-primary">Go somewhere</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 3 -->
+                    <div class="col-12 col-sm-6 col-md-3">
+                        <!--Lo tenía en 3, pero en 12 es para todo full mobiles-->
+                        <!--El grid es de 12, si lo pongo a 3 columnas, me caben 4 imagenes-->
+                        <div class="card">
+                            <img src="JM.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Batman: The night returns</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk
+                                    of the
+                                    card's content.</p>
+                                <a href="https://www.google.com.mx/search?hl=es-419&ei=cIPgXaLBF8visAXjtJygDA&q=Batman&oq=Batman&gs_l=psy-ab.3..0i67j0l8j0i131.20249.21002..21221...0.2..0.158.692.1j5......0....1..gws-wiz.......0i71.Yn92Wv67lJw&ved=0ahUKEwiiuebssI7mAhVLMawKHWMaB8QQ4dUDCAs&uact=5"
+                                    class="btn btn-primary">Go somewhere</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 4 -->
+                    <div class="col-12 col-sm-6 col-md-3">
+                        <!--Lo tenía en 3, pero en 12 es para todo full mobiles-->
+                        <!--El grid es de 12, si lo pongo a 3 columnas, me caben 4 imagenes-->
+                        <div class="card">
+                            <iframe src="https://www.youtube.com/embed/Dopn94NMh6g" frameborder="0"
+                                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen>
+                            </iframe>
+                            <div class="card-body">
+                                <h5 class="card-title">The Flashpoint paradox</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk
+                                    of the
+                                    card's content.</p>
+                                <a href="https://www.youtube.com/watch?v=Dopn94NMh6g" class="btn btn-primary">Go
+                                    somewhere</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <section>
+            <form class="container">
+                <div class="form-group"> <!--Contiene todo dentro de un grupo de formas-->
+                    <label for="exampleInputEmail1">Email address</label> <!--Junto a input always-->
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small> <!--Mensaje pequeño-->
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputPassword1">Password</label>
+                    <input type="password" class="form-control" id="exampleInputPassword1">
+                </div>
+                <div class="form-group">
+                    <label for="name">お名前ください:</label>
+                    <input type="text" class="form-control" id="name">
+                </div>
+                <div class="form-group form-check">
+                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                    <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                </div>
+                <button type="submit" class="btn btn-danger">Submit</button>
+            </form>
+        </section>
+    </body>
+</body>
+
+</html>
