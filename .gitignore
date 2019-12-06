@@ -1,0 +1,5 @@
+#Comentario: elimina cualquier cosa que no quieras subir, mejor dicho, lo ignora
+# /* junto con todo lo de adentro
+.vscode/* 
+
+confidencial.txt
